@@ -9,9 +9,9 @@ export default function Nav() {
             NFters
           </p>
           <div className="flex items-center justify-center gap-x-10">
-            <a href="">Marketplace</a>
-            <a href="">Resource</a>
-            <a href="">About</a>
+            <a href="" className="font-[500]">Marketplace</a>
+            <a href="" className="font-[500]">Resource</a>
+            <a href="" className="font-[500]">About</a>
           </div>
         </div>
         <div className="flex items-center justify-center gap-x-10">
@@ -25,8 +25,8 @@ export default function Nav() {
               className="px-7 py-3 border rounded-full w-[300px]"
             />
           </form>
-          <button>Upload</button>
-          <button>Connect Wallet</button>
+          <button className="bg-[#3D00B7] text-white px-7 py-3 rounded-full">Upload</button>
+          <button className="border-2 border-[#3D00B7] text-[#3D00B7] bg-white px-7 py-3 rounded-full font-semibold">Connect Wallet</button>
         </div>
       </div>
     </nav>
