@@ -2,7 +2,7 @@ import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-[1400px] mx-auto">
       <Nav />
     </main>
   );
