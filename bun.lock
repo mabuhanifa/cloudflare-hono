@@ -5,11 +5,11 @@
       "name": "cfw-hono-drizzle",
       "dependencies": {
         "@libsql/client": "^0.15.12",
+        "drizzle-kit": "^0.31.4",
         "drizzle-orm": "^0.44.4",
         "hono": "^4.9.2",
       },
       "devDependencies": {
-        "drizzle-kit": "^0.31.4",
         "wrangler": "^4.4.0",
       },
     },
