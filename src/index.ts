@@ -1,6 +1,7 @@
 import { drizzle } from "drizzle-orm/d1";
 import { Hono } from "hono";
 import { posts } from "./db/schema";
+import userRoutes from "./routes/user.route";
 
 export type Env = {
   DB: D1Database;
@@ -30,5 +31,7 @@ app
   .get("/", (c) => {
     return c.text("Hello, World!");
   });
+
+app.route("/users", userRoutes);
 
 export default app;
